@@ -1,12 +1,12 @@
 pluginManagement {
     repositories {
         maven {
-            url = "https://repsy.io/mvn/0xjoemama/public/"
+            url = uri("https://repsy.io/mvn/0xjoemama/public/")
             name = "Loader Repo"
         }
         mavenCentral()
         gradlePluginPortal()
     }
 }
-rootProject.name = 'example-mod'
+rootProject.name = "example-mod"
 
