@@ -1,0 +1,14 @@
+name = "Example Mod"
+modid = "example"
+description = """
+Cool description for your project.
+"""
+version = "${version}"
+
+[[entrypoints]]
+id = "common"
+class = "org.example.mod.ExampleMod"
+
+[[entrypoints]]
+id = "client"
+class = "org.example.mod.client.ExampleModClient"
