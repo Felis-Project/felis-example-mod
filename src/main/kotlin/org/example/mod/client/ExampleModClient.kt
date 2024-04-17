@@ -6,7 +6,7 @@ import io.github.joemama.loader.side.Side
 import org.example.mod.ExampleMod
 
 @OnlyIn(Side.CLIENT)
-class ExampleModClient : ClientEntrypoint {
+object ExampleModClient : ClientEntrypoint {
     override fun onClientInit() {
         ExampleMod.logger.info("Client has been initialized")
     }
