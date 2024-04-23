@@ -1,6 +1,6 @@
 package org.example.mod.client;
 
-import io.github.joemama.loader.api.client.ClientEntrypoint;
+import felis.kittens.core.client.ClientEntrypoint;
 import org.example.mod.ExampleMod;
 
 public class ExampleModClient implements ClientEntrypoint {

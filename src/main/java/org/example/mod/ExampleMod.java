@@ -1,6 +1,6 @@
 package org.example.mod;
 
-import io.github.joemama.loader.api.CommonEntrypoint;
+import felis.kittens.core.CommonEntrypoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
