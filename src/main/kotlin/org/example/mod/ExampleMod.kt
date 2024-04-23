@@ -1,11 +1,7 @@
 package org.example.mod
 
-import io.github.joemama.loader.api.CommonEntrypoint
-import io.github.joemama.loader.api.event.GameEvents
-import net.minecraft.core.Registry
-import net.minecraft.core.registries.BuiltInRegistries
-import net.minecraft.resources.ResourceLocation
-import net.minecraft.world.item.Item
+import felis.kittens.core.CommonEntrypoint
+import felis.kittens.core.event.GameEvents
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
@@ -13,7 +9,7 @@ object ExampleMod : CommonEntrypoint {
     val logger: Logger = LoggerFactory.getLogger(ExampleMod::class.java)
 
     override fun onInit() {
-        GameEvents.Block.breakBlock.register { ctx ->
+        GameEvents.Block.broken.register { ctx ->
             this.logger.info("Thou shalt not break block")
             ctx.isCancelled = true
         }

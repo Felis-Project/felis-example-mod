@@ -7,8 +7,8 @@ version = "${version}"
 
 [[entrypoints]]
 id = "common"
-class = "org.example.mod.ExampleMod"
+path = "org.example.mod.ExampleMod"
 
 [[entrypoints]]
 id = "client"
-class = "org.example.mod.client.ExampleModClient"
+path = "org.example.mod.client.ExampleModClient"

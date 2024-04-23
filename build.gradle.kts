@@ -1,17 +1,17 @@
 plugins {
-    id("loader-make") version "1.6-ALPHA"
+    id("felis-dam") version "1.7.4-alpha"
 }
 
 loaderMake {
-    version = "1.20.4"
+    version = "1.20.5"
 }
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
 dependencies {
-    implementation("io.github.joemama:loader:1.1-ALPHA")
-    implementation("io.github.joemama:api:1.1-ALPHA")
+    implementation("felis:felis:1.2.2-alpha")
+    implementation("felis:kittens:1.2.1-alpha")
 }
 
 tasks.withType(ProcessResources::class.java) {
