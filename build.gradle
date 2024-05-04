@@ -1,5 +1,5 @@
 plugins {
-    id "felis-dam" version "1.7.4-alpha"
+    id "felis-dam" version "1.8.0-alpha"
 }
 
 group = 'org.example'
@@ -10,9 +10,9 @@ loaderMake {
 }
 
 dependencies {
-    implementation("felis:felis:1.2.2-alpha")
-    implementation("felis:kittens:1.2.1-alpha")
-    implementation("felis:micromixin:1.2.1-alpha")
+    implementation("felis:felis:1.3.0-alpha")
+    implementation("felis:kittens:1.2.5-alpha")
+    implementation("felis:micromixin:1.2.5-alpha")
 }
 
 processResources {
