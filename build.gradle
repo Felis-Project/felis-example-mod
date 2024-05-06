@@ -6,7 +6,7 @@ group = mod_group
 version = mod_version
 
 loaderMake {
-    version = mc_version
+    version = minecraft_version
 }
 
 dependencies {
