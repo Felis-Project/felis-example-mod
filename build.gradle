@@ -3,7 +3,7 @@ plugins {
 }
 
 group = mod_group
-version = '1.0-SNAPSHOT'
+version = mod_version
 
 loaderMake {
     version = mc_version
