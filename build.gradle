@@ -1,5 +1,5 @@
 plugins {
-    id "felis-dam" version "1.8.2-alpha"
+    id "felis-dam" version "1.12.1-alpha"
 }
 
 group = mod_group
@@ -12,11 +12,10 @@ loaderMake {
 dependencies {
     implementation("felis:felis:${felis_version}")
     implementation("felis:kittens:${kittens_version}")
-    implementation("felis:micromixin:${micromixin_version}")
 }
 
 processResources {
-    filesMatching("mods.toml") {
+    filesMatching("felis.mod.toml") {
         expand "version": project.version
     }
 }

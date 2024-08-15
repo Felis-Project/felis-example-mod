@@ -2,7 +2,7 @@ pluginManagement {
     repositories {
         maven {
             url = "https://repsy.io/mvn/0xjoemama/public/"
-            name = "Loader Repo"
+            name = "Felis Repo"
         }
         mavenCentral()
         gradlePluginPortal()

@@ -1,17 +1,17 @@
+schema = 1
 name = "Example Mod"
 modid = "example"
 description = """
 Cool description for your project.
 """
 version = "${version}"
+mixins = "example.mixins.json"
 
 [[entrypoints]]
 id = "common"
-path = "org.example.mod.ExampleMod"
+specifier = "org.example.mod.ExampleMod"
 
 [[entrypoints]]
 id = "client"
-path = "org.example.mod.client.ExampleModClient"
+specifier = "org.example.mod.client.ExampleModClient"
 
-[[mixins]]
-path = "example.mixins.json"
